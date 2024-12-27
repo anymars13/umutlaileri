@@ -1,0 +1,184 @@
+body{
+    background-image: url(./arkaplan.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+}
+.navbar {
+    background-color: #FEFAE0;
+    font-family: "Poppins",serif;
+    font-size: 15px;
+}
+
+.navbar a {
+    color: #B99470;
+}
+
+.nav-link:hover{
+    background-color: #B99470;
+
+}
+.icon img {
+    height: 45px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar a:hover {
+    text-decoration: underline;
+    color: #FEFAE0;
+}
+
+.container h1{
+    font-family: "Original Surfer",serif;
+    color: #FEFAE0;
+}
+
+.container img{
+    width: 30%;
+    height: auto;
+    
+}
+
+.hakkimizda {
+    background-color: #FEFAE0;
+    color: #B99470;
+    font-family: "Poppins",serif;
+    font-size: 25px;
+    padding: 30px;
+    align-items: center;
+    clear: both; 
+}
+
+.left-image {
+    float: left; 
+    margin-right: 20px;
+    width: 100px; 
+    height: auto;
+}
+
+.hakkimizda p {
+    font-size: 17px;
+    line-height: 1.2;
+    margin: 0; 
+}
+
+
+@media (max-width: 768px) {
+    .container img {
+        width: 80%;
+    }
+
+    .hakkimizda {
+        font-size: 16px;
+    }
+    
+}
+
+.losemi{
+    display: grid;
+    justify-content: center;
+    background-color: #FEFAE0;
+    padding: 20px;
+}
+
+.losemi h2{
+    font-family: "Original Surfer",serif;
+    color: #A6B37D;
+    font-weight: 400;
+}
+
+.losemi p{
+    font-family: "Poppins",serif;
+    font-size: 20px;
+    color: black;
+}
+
+.losemi img{
+    margin-top: 20px;
+    width: 400px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.losemi img:hover {
+    transform: scale(1.05);
+}
+
+.losemi ul {
+    font-size: 20px;
+    line-height: 1.6;
+    list-style-type:square;
+    padding-left: 20px;
+}
+
+#footer {
+    background-color:#FEFAE0; 
+    font-size: 15px;
+}
+
+#footer p {
+    font-size: 15px;
+    color: #A6B37D;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #A6B37D;
+    text-decoration: underline;
+}
+
+
+.bagis-yap {
+    background-color: #FEFAE0;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bagis-yap2 h2 {
+    font-family: "Original Surfer",serif;
+    color:#A6B37D;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.bagis-yap2 p {
+    font-family: "Poppins",serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    color:#A6B37D;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #B99470;
+    margin-bottom: 20px;
+}
+
+#buton {
+    background-color: #B99470;
+    border-color: #B99470;    
+    color: white;           
+}
+
+#buton:hover {
+    background-color: #9f804f; 
+    border-color: #9f804f;
+}
+
+@media (max-width: 768px) {
+    .bagis-yap {
+        padding: 20px;
+    }
+}
